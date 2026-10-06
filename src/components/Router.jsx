@@ -4,6 +4,7 @@ import Home from "./Home";
 import Cine from "./Cine";
 import Musica from "./Musica";
 import FormSimple from "./FormSimple";
+import Collatz from "./Collatz";
 
 export default class Router extends Component {
 
@@ -15,6 +16,7 @@ export default class Router extends Component {
                     <Route path="/cine" element={<Cine/>}></Route>
                     <Route path="/musica" element={<Musica/>}></Route>
                     <Route path="/formsimple" element={<FormSimple/>}></Route>
+                    <Route path="/collatz" element={<Collatz/>}></Route>
                 </Routes>
             </BrowserRouter>
         )

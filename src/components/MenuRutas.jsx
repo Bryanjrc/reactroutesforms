@@ -20,6 +20,9 @@ export default class MenuRutas extends Component {
                     <li>
                         <a href="/formsimple">Form Simple</a>
                     </li>
+                    <li>
+                        <a href="/collatz">Collatz</a>
+                    </li>
                 </ul>
             </div>
         )

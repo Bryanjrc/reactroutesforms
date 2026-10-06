@@ -5,7 +5,7 @@ export default class FormSimple extends Component {
     cajaNombre = React.createRef();
     enviarInformacion = (event) => {
         //DEBEMOS DETENER EL SUBMIT
-        event.prevenDefault();
+        event.preventDefault();
         let nombre = this.cajaNombre.current.value;
         console.log("Datos enviados: " + nombre);
     }
